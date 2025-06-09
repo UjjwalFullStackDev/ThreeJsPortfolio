@@ -22,7 +22,7 @@ const Contact = () => {
                 from_name: form.name,
                 to_name: 'Ujjwal Tyagi',
                 from_email: form.email,
-                to_email: 'ujjwal.tyagi90611@gmail',
+                to_email: 'ujjwal.tyagi.dev@gmail',
                 message: form.message,
             }, '5gfpbKlWh8RoSZUEl')
             setLoading(false);
