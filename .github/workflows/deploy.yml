@@ -3,7 +3,7 @@ name: Deploy to Hostinger via FTP
 on:
   push:
     branches:
-      - main  # or your actual deployment branch
+      - main
 
 jobs:
   build-and-deploy:
@@ -24,11 +24,14 @@ jobs:
       - name: Build Project
         run: npm run build
 
+      - name: Show build folder contents
+        run: ls -al dist/
+
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: 91.108.107.28
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
-          local-dir: build/  # Or 'dist' if your build folder is named that
-          server-dir: public_html  # Or adjust if your root dir is different
+          local-dir: dist/
+          server-dir: public_html/
