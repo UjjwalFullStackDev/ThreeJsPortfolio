@@ -89,124 +89,119 @@ export const navLinks = [
         },
         {
           id: 4,
-          name: 'Framer Motion',
+          name: 'GSAP',
           path: '/assets/gsap.png',
         },
       ],
     },
-    // {
-    //   title: 'LiveDoc - Real-Time Google Docs Clone',
-    //   desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    //   subdesc:
-    //     'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    //   href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    //   texture: '/textures/project/project2.mp4',
-    //   logo: '/assets/project-logo2.png',
-    //   logoStyle: {
-    //     backgroundColor: '#13202F',
-    //     border: '0.2px solid #17293E',
-    //     boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    //   },
-    //   spotlight: '/assets/spotlight2.png',
-    //   tags: [
-    //     {
-    //       id: 1,
-    //       name: 'React.js',
-    //       path: '/assets/react.svg',
-    //     },
-    //     {
-    //       id: 2,
-    //       name: 'TailwindCSS',
-    //       path: 'assets/tailwindcss.png',
-    //     },
-    //     {
-    //       id: 3,
-    //       name: 'TypeScript',
-    //       path: '/assets/javascript.png',
-    //     },
-    //     {
-    //       id: 4,
-    //       name: 'Framer Motion',
-    //       path: '/assets/framer.png',
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: 'CarePulse - Health Management System',
-    //   desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    //   subdesc:
-    //     'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    //   href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    //   texture: '/textures/project/project3.mp4',
-    //   logo: '/assets/project-logo3.png',
-    //   logoStyle: {
-    //     backgroundColor: '#60f5a1',
-    //     background:
-    //       'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-    //     border: '0.2px solid rgba(208, 213, 221, 1)',
-    //     boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    //   },
-    //   spotlight: '/assets/spotlight3.png',
-    //   tags: [
-    //     {
-    //       id: 1,
-    //       name: 'React.js',
-    //       path: '/assets/react.svg',
-    //     },
-    //     {
-    //       id: 2,
-    //       name: 'TailwindCSS',
-    //       path: 'assets/tailwindcss.png',
-    //     },
-    //     {
-    //       id: 3,
-    //       name: 'TypeScript',
-    //       path: '/assets/javascript.png',
-    //     },
-    //     {
-    //       id: 4,
-    //       name: 'Framer Motion',
-    //       path: '/assets/framer.png',
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: 'Horizon - Online Banking Platform',
-    //   desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    //   subdesc:
-    //     'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    //   href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    //   texture: '/textures/project/project4.mp4',
-    //   logo: '/assets/project-logo4.png',
-    //   logoStyle: {
-    //     backgroundColor: '#0E1F38',
-    //     border: '0.2px solid #0E2D58',
-    //     boxShadow: '0px 0px 60px 0px #2F67B64D',
-    //   },
-    //   spotlight: '/assets/spotlight4.png',
-    //   tags: [
-    //     {
-    //       id: 1,
-    //       name: 'React.js',
-    //       path: '/assets/react.svg',
-    //     },
-    //     {
-    //       id: 2,
-    //       name: 'TailwindCSS',
-    //       path: 'assets/tailwindcss.png',
-    //     },
-    //     {
-    //       id: 3,
-    //       name: 'TypeScript',
-    //       path: '/assets/javascript.png',
-    //     },
-    //     {
-    //       id: 4,
-    //       name: 'Framer Motion',
-    //       path: '/assets/framer.png',
-    //     },
-    //   ],
-    // },
+    {
+      title: 'CapitAll - Fintech Dashboard Platform',
+      desc: 'Built a scalable, modern fintech dashboard featuring responsive UI and robust API architecture. Developed with React.js, Tailwind CSS, Node.js, Express, and MongoDB.',
+      subdesc:
+        'Includes user authentication, data-driven dashboards, and backend integration—crafted to align with client goals and ensure long-term scalability.',
+      href: 'https://capitall.io/',
+      texture: '/textures/project/capitaAll.mp4',
+      logo: '/assets/capitall.png',
+      logoStyle: {
+        backgroundColor: '#13202F',
+        border: '0.2px solid #17293E',
+        boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      },
+      spotlight: '/assets/spotlight2.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/javascript.png',
+        },
+      ],
+    },
+    {
+      title: 'Zenetry - Inspired Landing Page',
+      desc: 'Created a visually striking website modeled after Zentry, showcasing geometric transitions, scroll-based interactions, and cinematic video storytelling.',
+      subdesc:
+        'Designed with React.js, Tailwind CSS, and Framer Motion to deliver a luxurious, award-style user experience with exceptional responsiveness and visual flair.',
+      href: 'https://zentry--nine.vercel.app/',
+      texture: '/textures/project/zenetry.mp4',
+      logo: '/assets/zenetry.png',
+      logoStyle: {
+        backgroundColor: '#60f5a1',
+        background:
+          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        border: '0.2px solid rgba(208, 213, 221, 1)',
+        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      },
+      spotlight: '/assets/spotlight3.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/javascript.png',
+        },
+        {
+          id: 4,
+          name: 'GSAP',
+          path: '/assets/gsap.png',
+        },
+      ],
+    },
+    {
+      title: 'Prepwise - AI-Powered Mock Interview Tool',
+      desc: 'Developed an interactive mock interview platform using Next.js and Firebase. Styled with Tailwind CSS and integrated with Vapi’s voice AI agents, the project offers real-time interview simulations and preparation tools.',
+      subdesc:
+        'Built to help developers explore how to integrate modern AI capabilities into web applications.',
+      href: 'https://ai-mock-interview-puce.vercel.app/',
+      texture: '/textures/project/Interview.mp4',
+      logo: '/assets/interview.svg',
+      logoStyle: {
+        backgroundColor: '#0E1F38',
+        border: '0.2px solid #0E2D58',
+        boxShadow: '0px 0px 60px 0px #2F67B64D',
+      },
+      spotlight: '/assets/spotlight4.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/javascript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
     // {
     //   title: 'Imaginify - AI Photo Manipulation App',
     //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
