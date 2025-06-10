@@ -33,5 +33,6 @@ jobs:
           server: 91.108.107.28
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
+          server-dir: public_html/
           local-dir: dist/
           dangerous-clean-slate: true
