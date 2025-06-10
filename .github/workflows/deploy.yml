@@ -30,9 +30,9 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: 91.108.107.28
+          server: ftp.ujjwaltechie.com
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: dist/
-          server-dir: /
+          server-dir: domains/ujjwaltechie.com/public_html/
           dangerous-clean-slate: true
