@@ -34,5 +34,4 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: dist/
-          server-dir: domains/ujjwaltechie.com/public_html/
           dangerous-clean-slate: true
